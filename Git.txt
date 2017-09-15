@@ -29,6 +29,15 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add .
 
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "Add git tutorial txt File"
 ====> commit change
+**************************************************************************************************
+3. commit directly
+
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch Git.txt
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -am "Add git tutorial txt File"
+
+**************************************************************************************************
+
+3. commit log
 
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log
 ===> show all commit
