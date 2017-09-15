@@ -1,0 +1,38 @@
+1. git username and Name
+
+ajayp@AjayPP-PC MINGW64 ~$ git config --global user.name "User Name"
+
+ajayp@AjayPP-PC MINGW64 ~$ git config --global user.email "username@gmail.com"
+
+ajayp@AjayPP-PC MINGW64 ~$ git config --list
+
+ajayp@AjayPP-PC MINGW64 ~$ git config user.name
+User Name
+
+ajayp@AjayPP-PC MINGW64 ~$ git help
+
+**************************************************************************************************
+2. Create repository
+
+ajayp@AjayPP-PC MINGW64 ~$ pwd
+ajayp@AjayPP-PC MINGW64 ~$ cd /s
+ajayp@AjayPP-PC MINGW64 ~$ mkdir project1
+ajayp@AjayPP-PC MINGW64 ~$ cd /project1   
+ajayp@AjayPP-PC MINGW64 ~$ git init        ===>start project1
+Initialized empty Git repository in S:/mini project/git1/.git/
+
+**************************************************************************************************
+3. commit
+
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch Git.txt
+
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add .
+===> Add the changes to the project
+
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "Add git tutorial txt File"
+[master (root-commit) 19f626b] Add git tutorial txt File
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Git.txt
+====> commit change
+
+
