@@ -39,4 +39,17 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git status
 ===>show if commit possible otherwise nothing to commit
 
 **************************************************************************************************
-4. Git Work flow add and commit
+4. Git Work flow add and commit:(create file > go to staging area after git add . > commited file)
+
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch a.txt b.txt
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add a.txt
+
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git status
+===> a.txt added to project but b.txt is not added and both not commited
+
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git diff
+===> show modification text in file
+
+**************************************************************************************************
+
+
