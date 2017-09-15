@@ -73,5 +73,13 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "mv a.txt"
 
 **************************************************************************************************
 
-
+dsafsdga
+fdg
+afterg
+dsafsdgagads
+gitasd
+gitasdg
+asd
+gitsadg
+asdg
 
