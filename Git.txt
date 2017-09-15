@@ -22,7 +22,7 @@ ajayp@AjayPP-PC MINGW64 ~$ git init        ===>start project1
 Initialized empty Git repository in S:/mini project/git1/.git/
 
 **************************************************************************************************
-3. commit
+3. commit and commit log
 
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch Git.txt
 
@@ -34,5 +34,19 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "Add git tu
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 Git.txt
 ====> commit change
+
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log
+===> show all commit
+
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log --author="Ajay Paratmandali"
+commit cf432b1260eb7e19835d9a1660e71c6b242f3d58 (HEAD -> master)
+Author: Ajay Paratmandali <ajaypp123@gmail.com>
+Date:   Fri Sep 15 10:45:33 2017 +0530
+    Update file
+
+commit 19f626b9b45db0aa37d17290c37b32091101fc3c
+Author: Ajay Paratmandali <ajaypp123@gmail.com>
+Date:   Fri Sep 15 10:39:16 2017 +0530
+    Add git tutorial txt File
 
 
