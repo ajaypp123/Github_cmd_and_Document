@@ -107,4 +107,13 @@ ajayp@AjayPP-PC MINGW64 /s/mini project $ git config --global http.sslVerify fal
 ajayp@AjayPP-PC MINGW64 /s/mini project $ git clone https://github.com/ajaypp123/FTP-Flask-python.git
 ===> add remote to repository if you want
 
-5)branches
+5)branches and contribution 
+- create new branch in another project make change and then go to branch pull request 
+then user merge the branch to master and delete branch
+cmd
+
+6) fork branch  or copy another project to our github
+fork project update change then create new pull request
+
+7)Issue
+go to project issue create new issue and label the issue
