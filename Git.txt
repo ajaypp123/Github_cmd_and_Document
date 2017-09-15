@@ -89,8 +89,22 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git checkout 701ae1affaac
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -am "undo changes"
 
 **************************************************************************************************
+									GitHub and Git
 **************************************************************************************************
 
+1) Go to github create new repository without Readme
 
+2) Set remote connection between desktop and online repository
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git remote add any_nickname https://github.com/ajaypp123/Github_cmd_and_Document.git
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git remote
 
+3)Puss all local desktop data to online repository
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git config http.sslVerify false
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git push -u git_doc master
 
+4)clone repository or pull online project to local desktop
+ajayp@AjayPP-PC MINGW64 /s/mini project $ git config --global http.sslVerify false
+ajayp@AjayPP-PC MINGW64 /s/mini project $ git clone https://github.com/ajaypp123/FTP-Flask-python.git
+===> add remote to repository if you want
+
+5)branches
