@@ -52,4 +52,17 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git diff
 
 **************************************************************************************************
 
+5.delete rename move file
+
+delete
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git rm a.txt
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "delete a.txt"
+
+mv or rename
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git mv a.txt b.txt
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "mv a.txt"
+
+**************************************************************************************************
+
+
 
