@@ -89,5 +89,8 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git checkout 701ae1affaac
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -am "undo changes"
 
 **************************************************************************************************
+**************************************************************************************************
+
+
 
 
