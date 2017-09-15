@@ -72,14 +72,13 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git mv a.txt b.txt
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "mv a.txt"
 
 **************************************************************************************************
+6. unset or old version
+stage1 = create or modify file
+stage2 = staging area (git add .)
+stage3 = commit file
 
-dsafsdga
-fdg
-afterg
-dsafsdgagads
-gitasd
-gitasdg
-asd
-gitsadg
-asdg
+stage2 to stage1:
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add .
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git reset HEAD file.txt(git reset HEAD .)
+
 
