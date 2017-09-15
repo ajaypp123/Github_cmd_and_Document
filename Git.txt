@@ -81,13 +81,4 @@ stage2 to stage1:
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add .
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git reset HEAD file.txt(git reset HEAD .)
 
-dsa
-fdsa
-gitads
-dfa
-sdf
-as
-dfaads
-fdsaadsf
-ads
-fdsaadsff
+
