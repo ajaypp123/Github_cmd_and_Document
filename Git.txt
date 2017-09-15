@@ -1,13 +1,11 @@
 1. git username and Name
 
-ajayp@AjayPP-PC MINGW64 ~$ git config --global user.name "User Name"
-
-ajayp@AjayPP-PC MINGW64 ~$ git config --global user.email "username@gmail.com"
+ajayp@AjayPP-PC MINGW64 ~$ git config --global user.name "Ajay Paratmandali"
+ajayp@AjayPP-PC MINGW64 ~$ git config --global user.email "ajaypp123@gmail.com"
 
 ajayp@AjayPP-PC MINGW64 ~$ git config --list
-
 ajayp@AjayPP-PC MINGW64 ~$ git config user.name
-User Name
+Ajay Paratmandali
 
 ajayp@AjayPP-PC MINGW64 ~$ git help
 
@@ -30,23 +28,15 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add .
 ===> Add the changes to the project
 
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "Add git tutorial txt File"
-[master (root-commit) 19f626b] Add git tutorial txt File
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 Git.txt
 ====> commit change
 
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log
 ===> show all commit
 
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log --author="Ajay Paratmandali"
-commit cf432b1260eb7e19835d9a1660e71c6b242f3d58 (HEAD -> master)
-Author: Ajay Paratmandali <ajaypp123@gmail.com>
-Date:   Fri Sep 15 10:45:33 2017 +0530
-    Update file
 
-commit 19f626b9b45db0aa37d17290c37b32091101fc3c
-Author: Ajay Paratmandali <ajaypp123@gmail.com>
-Date:   Fri Sep 15 10:39:16 2017 +0530
-    Add git tutorial txt File
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git status
+===>show if commit possible otherwise nothing to commit
 
-
+**************************************************************************************************
+4. Git Work flow add and commit
