@@ -139,19 +139,32 @@ then user merge the branch to master and delete branch
 9)delete remote or github branch (delete branch3 from github)
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git push git_doc :branch3
 
-11)update local desktop project from remote github
+10)update local desktop project from remote github
 ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git pull git_doc master
 
-12) fork branch  or copy another project to our github
+11) fork branch  or copy another project to our github
 fork project update change then create new pull request
 
 **************************************************************************************************
-13) .gitignore file was not push on remote server
+12) .gitignore file was not push on remote server
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch .gitignore
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git push -u git_doc master
 
 **************************************************************************************************
 
 
-12)Issue
-go to project issue create new issue and label the issue
+14)Issue
+
+create
+- go to project issue create new issue and label the issue. This issue may be any quotation
+ 
+solve issue
+- create branch make change and during commit add
+(issue solve #3) and after that commit where #3 is issue number
+
+- other way is fork project make change create pull request
+
+solve issue directly without pull request
+- after change in comment (fix #3) this directly close issue
+
+**************************************************************************************************
