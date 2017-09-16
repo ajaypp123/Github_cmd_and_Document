@@ -104,7 +104,7 @@ stage3 to previous commit:
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git push -u git_doc master
 
 **************************************************************************************************
-4)clone repository or pull online project to local desktop
+4)clone repository online project to local desktop (clone use once in project)
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git config --global http.sslVerify false
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git clone https://github.com/ajaypp123/FTP-Flask-python.git
 ===> add remote to repository if you want
@@ -132,18 +132,21 @@ then user merge the branch to master and delete branch
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git merge branch_name
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git branch -D branch_name			(delete)
 
-8)Pull github branch to local desktop
+8)Pull github branch to local desktop(fetch not merge but similar to pull)
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git fetch git_doc branch3:branch3
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git checkout branch3
 
 9)delete remote or github branch (delete branch3 from github)
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git push git_doc :branch3
 
-10) fork branch  or copy another project to our github
+11)update local desktop project from remote github
+ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git pull git_doc master
+
+12) fork branch  or copy another project to our github
 fork project update change then create new pull request
 
 **************************************************************************************************
-11) .gitignore file was not push on remote server
+13) .gitignore file was not push on remote server
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch .gitignore
 -ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git push -u git_doc master
 
