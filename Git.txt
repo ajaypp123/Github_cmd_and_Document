@@ -1,62 +1,62 @@
 1. git username and Name
 
-ajayp@AjayPP-PC MINGW64 ~$ git config --global user.name "Ajay Paratmandali"
-ajayp@AjayPP-PC MINGW64 ~$ git config --global user.email "ajaypp123@gmail.com"
+-ajayp@AjayPP-PC MINGW64 ~$ git config --global user.name "Ajay Paratmandali"
+-ajayp@AjayPP-PC MINGW64 ~$ git config --global user.email "ajaypp123@gmail.com"
 
-ajayp@AjayPP-PC MINGW64 ~$ git config --list
-ajayp@AjayPP-PC MINGW64 ~$ git config user.name
+-ajayp@AjayPP-PC MINGW64 ~$ git config --list
+-ajayp@AjayPP-PC MINGW64 ~$ git config user.name
 Ajay Paratmandali
 
-ajayp@AjayPP-PC MINGW64 ~$ git help
+-ajayp@AjayPP-PC MINGW64 ~$ git help
 
 **************************************************************************************************
 2. Create repository
 
-ajayp@AjayPP-PC MINGW64 ~$ pwd
-ajayp@AjayPP-PC MINGW64 ~$ cd /s
-ajayp@AjayPP-PC MINGW64 ~$ mkdir project1
-ajayp@AjayPP-PC MINGW64 ~$ cd /project1   
-ajayp@AjayPP-PC MINGW64 ~$ git init        ===>start project1
+-ajayp@AjayPP-PC MINGW64 ~$ pwd
+-ajayp@AjayPP-PC MINGW64 ~$ cd /s
+-ajayp@AjayPP-PC MINGW64 ~$ mkdir project1
+-ajayp@AjayPP-PC MINGW64 ~$ cd /project1   
+-ajayp@AjayPP-PC MINGW64 ~$ git init        ===>start project1
 Initialized empty Git repository in S:/mini project/git1/.git/
 
 **************************************************************************************************
 3. commit and commit log
 
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch Git.txt
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch Git.txt
 
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add .
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add .
 ===> Add the changes to the project
 
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "Add git tutorial txt File"
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "Add git tutorial txt File"
 ====> commit change
 **************************************************************************************************
 3. commit directly
 
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch Git.txt
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -am "Add git tutorial txt File"
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch Git.txt
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -am "Add git tutorial txt File"
 
 **************************************************************************************************
 
 3. commit log
 
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log
 ===> show all commit
 
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log --author="Ajay Paratmandali"
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log --author="Ajay Paratmandali"
 
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git status
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git status
 ===>show if commit possible otherwise nothing to commit
 
 **************************************************************************************************
 4. Git Work flow add and commit:(create file > go to staging area after git add . > commited file)
 
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch a.txt b.txt
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add a.txt
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch a.txt b.txt
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add a.txt
 
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git status
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git status
 ===> a.txt added to project but b.txt is not added and both not commited
 
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git diff
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git diff
 ===> show modification text in file
 
 **************************************************************************************************
@@ -64,12 +64,12 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git diff
 5.delete rename move file
 
 delete
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git rm a.txt
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "delete a.txt"
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git rm a.txt
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "delete a.txt"
 
 mv or rename
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git mv a.txt b.txt
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "mv a.txt"
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git mv a.txt b.txt
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -m "mv a.txt"
 
 **************************************************************************************************
 6. unset or old version
@@ -79,14 +79,14 @@ stage2 = staging area (git add .)
 stage3 = commit file
 
 stage2 to stage1:
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add .
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git reset HEAD file.txt(git reset HEAD .)
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git add .
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git reset HEAD file.txt(git reset HEAD .)
 
 stage3 to previous commit:
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -am "update file"
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log (find commit id)
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git checkout 701ae1affaac08219d77052ae2b02f70afc69d5d -- Git.txt
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -am "undo changes"
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -am "update file"
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git log (find commit id)
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git checkout 701ae1affaac08219d77052ae2b02f70afc69d5d -- Git.txt
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -am "undo changes"
 
 **************************************************************************************************
 									GitHub and Git
@@ -95,16 +95,60 @@ ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git commit -am "undo chan
 1) Go to github create new repository without Readme
 
 2) Set remote connection between desktop and online repository
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git remote add any_nickname https://github.com/ajaypp123/Github_cmd_and_Document.git
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git remote
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git remote add any_nickname https://github.com/ajaypp123/Github_cmd_and_Document.git
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git remote
 
+**************************************************************************************************
 3)Puss all local desktop data to online repository
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git config http.sslVerify false
-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git push -u git_doc master
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git config http.sslVerify false
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git push -u git_doc master
 
+**************************************************************************************************
 4)clone repository or pull online project to local desktop
-ajayp@AjayPP-PC MINGW64 /s/mini project $ git config --global http.sslVerify false
-ajayp@AjayPP-PC MINGW64 /s/mini project $ git clone https://github.com/ajaypp123/FTP-Flask-python.git
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git config --global http.sslVerify false
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git clone https://github.com/ajaypp123/FTP-Flask-python.git
 ===> add remote to repository if you want
 
-5)branches
+**************************************************************************************************
+5)branches and contribution 
+
+-(on GitHub) create new branch in another project make change and then go to branch pull request 
+then user merge the branch to master and delete branch
+
+(on local system)
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git branch					(show all branch)
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git branch --no-merged		(branch which not merge with master)
+
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git branch branch_name		(branch created)
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ checkout branch_name      	(switch to branch)
+(after switch to branch update data)
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (branch_name)$ git commit -am "branch updated"
+(go to project check doument with master and branch_name)
+
+6)push branch on github
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (branch2)$ git push git_doc branch2
+
+7)Merge branch into master and delete branch (on local desktop)
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git merge branch_name
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git branch -D branch_name			(delete)
+
+8)Pull github branch to local desktop
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git fetch git_doc branch3:branch3
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git checkout branch3
+
+9)delete remote or github branch (delete branch3 from github)
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git push git_doc :branch3
+
+10) fork branch  or copy another project to our github
+fork project update change then create new pull request
+
+**************************************************************************************************
+11) .gitignore file was not push on remote server
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ touch .gitignore
+-ajayp@AjayPP-PC MINGW64 /s/mini project/git1 (master)$ git push -u git_doc master
+
+**************************************************************************************************
+
+
+12)Issue
+go to project issue create new issue and label the issue
