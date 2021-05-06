@@ -1,7 +1,7 @@
 1. git username and Name
 
 -ajayp@AjayPP-PC MINGW64 ~$ git config --global user.name "Ajay Paratmandali"
--ajayp@AjayPP-PC MINGW64 ~$ git config --global user.email "ajaypp123@gmail.com"
+-ajayp@AjayPP-PC MINGW64 ~$ git config --global user.email "<email>"
 
 -ajayp@AjayPP-PC MINGW64 ~$ git config --list
 -ajayp@AjayPP-PC MINGW64 ~$ git config user.name
